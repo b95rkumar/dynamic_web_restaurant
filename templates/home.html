@@ -4,11 +4,14 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title> Taste it India </title>
+    <title> Taste of India </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <style>
       #banner{
-        height:300;width:100%;
+        height:350px;width:100%;object-fit:cover;
+      }
+      #food{
+        height:150px;width:100%;object-fit:cover;
       }
     </style>
     
@@ -16,38 +19,57 @@
 
   <body>
     <div class="container">
-      <h1 class="text-center mt-3 mb-3"> Taste it India </h1>
+      <h1 class="text-center mt-3 mb-3"> Taste of India </h1>
      <img class="img-fluid" id="banner" src="/static/banner.jpg" alt="Indian Food"     >
 
-      <h2 class="text-center  mt-3 mb-3"> About Taste it India </h2>
+      <h2 class="text-center  mt-3 mb-3"> About Taste of India </h2>
       <p class="lead" > Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Turpis massa sed elementum tempus egestas sed sed risus pretium. Eu tincidunt tortor aliquam nulla. At elementum eu facilisis sed odio. Pellentesque habitant morbi tristique senectus et netus et. Quis hendrerit dolor magna eget. Aliquam sem et tortor consequat. Sociis natoque penatibus et magnis. Aliquet nibh praesent tristique magna sit amet. Id aliquet risus feugiat in ante metus dictum.</p>
   
       <h2 class="text-center  mt-3 mb-3"> Our Dishes </h2>
       
   
       <p > Insert Images here based on type</p>
-      <div class="row">
+      <div class="row mb-4">
         <div class="col-3">
-          1 of 4
+
+        <p><a href="/food/SNACKS">
+<img class="img-fluid" id="food" src="/static/snacks.jpg" alt="Indian Food" >
+</a></p>
+          <h6 class="text-center"> Snacks </h6>
         </div>
         
         <div class="col-3">
-          2 of 4
+        <p><a href="/food/SNACKS">
+<img class="img-fluid" id="food" src="/static/drinks.jpg" alt="Indian Food" >
+</a></p>
+          <h6 class="text-center"> Drinks </h6>
+
         </div>
 
         <div class="col-3">
-          3 of 4
-        </div>
+        <p><a href="https://www.w3schools.com">
+<img class="img-fluid" id="food" src="/static/main_course.jpg" alt="Indian Food" >
+</a></p>
+          <h6 class="text-center"> Main Course </h6>
+
+          </div>
 
         <div class="col-3">
-          4 of 4
-        </div>
+        <p><a href="https://www.w3schools.com">
+<img class="img-fluid" id="food" src="/static/indian_breads.jpg" alt="Indian Food" >
+</a></p>
+          <h6 class="text-center"> Indian Breads </h6>
+
+          </div>
         
         
       </div>
       
-      <div class="text-center">
-        <button class ="btn btn-primary btn-lg"> Contact Us</button>
+      <div class="text-center mt-3">
+        <a href="https://www.w3schools.com">
+        <button class ="btn btn-primary btn-lg"> 
+           Contact Us</button> 
+        </a>
         <p class="mt-4"> Copyright 2023, Taste it India</p>
       </div>
     
